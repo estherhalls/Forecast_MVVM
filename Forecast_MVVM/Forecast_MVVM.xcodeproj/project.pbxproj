@@ -17,6 +17,7 @@
 		41978F6D27B9CE70001CB2C0 /* ResultError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41978F6C27B9CE70001CB2C0 /* ResultError.swift */; };
 		41978F6F27B9CF0A001CB2C0 /* DayForecastTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41978F6E27B9CF0A001CB2C0 /* DayForecastTableViewCell.swift */; };
 		41978F7127B9CF46001CB2C0 /* DayDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41978F7027B9CF46001CB2C0 /* DayDetailsViewController.swift */; };
+		EBA5590528FF383D00E632F7 /* DayDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA5590428FF383D00E632F7 /* DayDetailViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		41978F6C27B9CE70001CB2C0 /* ResultError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultError.swift; sourceTree = "<group>"; };
 		41978F6E27B9CF0A001CB2C0 /* DayForecastTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayForecastTableViewCell.swift; sourceTree = "<group>"; };
 		41978F7027B9CF46001CB2C0 /* DayDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayDetailsViewController.swift; sourceTree = "<group>"; };
+		EBA5590428FF383D00E632F7 /* DayDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayDetailViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +66,7 @@
 		41978F4127B9C26C001CB2C0 /* Forecast_MVVM */ = {
 			isa = PBXGroup;
 			children = (
-				41978F6527B9CDA8001CB2C0 /* Controller */,
+				41978F6527B9CDA8001CB2C0 /* Networking */,
 				41978F6427B9CDA1001CB2C0 /* Model */,
 				41978F6727B9CDB5001CB2C0 /* View */,
 				41978F5627B9C2B5001CB2C0 /* Supporting Files */,
@@ -93,13 +95,13 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		41978F6527B9CDA8001CB2C0 /* Controller */ = {
+		41978F6527B9CDA8001CB2C0 /* Networking */ = {
 			isa = PBXGroup;
 			children = (
 				41978F6A27B9CDF2001CB2C0 /* NetworkingController.swift */,
 				41978F6C27B9CE70001CB2C0 /* ResultError.swift */,
 			);
-			path = Controller;
+			path = Networking;
 			sourceTree = "<group>";
 		};
 		41978F6727B9CDB5001CB2C0 /* View */ = {
@@ -107,6 +109,7 @@
 			children = (
 				41978F6E27B9CF0A001CB2C0 /* DayForecastTableViewCell.swift */,
 				41978F7027B9CF46001CB2C0 /* DayDetailsViewController.swift */,
+				EBA5590428FF383D00E632F7 /* DayDetailViewModel.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -182,6 +185,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBA5590528FF383D00E632F7 /* DayDetailViewModel.swift in Sources */,
 				41978F6F27B9CF0A001CB2C0 /* DayForecastTableViewCell.swift in Sources */,
 				41978F6D27B9CE70001CB2C0 /* ResultError.swift in Sources */,
 				41978F4327B9C26C001CB2C0 /* AppDelegate.swift in Sources */,

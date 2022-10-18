@@ -8,9 +8,9 @@
 import Foundation
 
 class NetworkingContoller {
-    private static let baseURLString = "https://api.weatherbit.io"
+    private let baseURLString = "https://api.weatherbit.io"
     
-    static func fetchDays(completion: @escaping (Result<TopLevelDictionary, ResultError>) -> Void) {
+     func fetchDays(completion: @escaping (Result<TopLevelDictionary, ResultError>) -> Void) {
         guard let baseURL = URL(string:baseURLString) else {return}
 
 
